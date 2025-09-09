@@ -1,21 +1,33 @@
 import Image from 'next/image'
-export type Project = { title:string; description:string; tags:string[]; href?:string; image?:string; imageAlt?:string }
+
+export type Project = {
+  title: string
+  description: string
+  tags: string[]
+  href?: string
+  image?: string
+  imageAlt?: string
+}
 
 export function ProjectCard({ title, description, tags, href, image, imageAlt }: Project) {
-  const Content = () => (<>
-    {image && (
-      <div className="relative mb-4 overflow-hidden rounded-2xl border border-black/10 dark:border-white/10 shadow-lg aspect-[4/3]">
-        <Image src={image} alt={imageAlt||title} fill sizes="(max-width:768px) 100vw, 50vw" className="object-cover" />
-      </div>
-    )}
-    <h3 className="text-xl font-semibold">{title}</h3>
-    <p className="mt-2 opacity-80">{description}</p>
-    <div className="mt-3 flex flex-wrap gap-2">{tags.map(t=><span key={t} className="rounded-full border px-3 py-1 text-xs">{t}</span>)}</div>
-  </>)
+  const Wrapper = ({ children }: { children: React.ReactNode }) =>
+    href ? <a href={href} target="_blank" className="no-underline block">{children}</a> : <div>{children}</div>
 
-  return href ? (
-    <a href={href} target={href.startsWith('/') ? '_self' : '_blank'} rel={href.startsWith('/')?undefined:'noopener noreferrer'} className="card block hover:shadow-lg transition-shadow cursor-pointer no-underline">
-      <Content />
-    </a>
-  ) : <div className="card"><Content/></div>
+  return (
+    <div className="card !p-4 md:!p-5 hover:shadow-md transition-shadow">
+      <Wrapper>
+        {image && (
+          <div className="relative mb-3 overflow-hidden rounded-xl border border-black/10 dark:border-white/10 shadow-md aspect-[16/10] md:aspect-[16/10]">
+            {/* Use aspect-[4/3] or aspect-[16/9] depending on your images */}
+            <Image src={image} alt={imageAlt || title} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
+          </div>
+        )}
+        <h3 className="text-lg md:text-xl font-semibold leading-tight">{title}</h3>
+        <p className="mt-1.5 text-sm md:text-[15px] opacity-80">{description}</p>
+        <div className="mt-2.5 flex flex-wrap gap-2">
+          {tags.map(t => <span key={t} className="rounded-full border px-2.5 py-1 text-[11px] md:text-xs">{t}</span>)}
+        </div>
+      </Wrapper>
+    </div>
+  )
 }

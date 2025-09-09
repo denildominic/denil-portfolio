@@ -1,13 +1,28 @@
-export const metadata = { title: 'Resume — Denil Dominic', description: 'Resume' }
-export default function Page() {
+export const metadata = {
+  title: 'Resume — Denil Dominic',
+  description: 'Resume of Denil Dominic',
+}
+
+export default function ResumePage() {
   return (
-    <section className="section"><div className="container">
-      <h1 className="text-3xl md:text-4xl font-extrabold">Resume</h1>
-      <p className="mt-2 opacity-80">If the PDF doesn’t display, use the download link.</p>
-      <div className="mt-6 rounded-2xl border overflow-hidden">
-        <iframe src="/resume.pdf#view=FitH" title="Resume" className="w-full h-[85vh]" />
+    <section className="section">
+      <div className="container">
+        <h1 className="text-3xl md:text-4xl font-extrabold">Resume</h1>
+        <p className="mt-2 opacity-80">
+          The PDF is embedded below. If you don’t see it, use the download link.
+        </p>
+
+        <div className="mt-6 rounded-2xl border overflow-hidden">
+          <object data="/resume.pdf" type="application/pdf" className="w-full h-[85vh]">
+            <p className="p-4">
+              Your browser can’t display PDFs inline.
+              <a className="underline ml-1" href="/resume.pdf" target="_blank" rel="noreferrer">
+                Download the PDF instead
+              </a>.
+            </p>
+          </object>
+        </div>
       </div>
-      <div className="mt-4"><a href="/resume.pdf" target="_blank" className="rounded-xl border px-5 py-3 no-underline">Download PDF</a></div>
-    </div></section>
+    </section>
   )
 }
