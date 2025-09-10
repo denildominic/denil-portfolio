@@ -28,7 +28,7 @@ export function ContactForm() {
         <textarea name="message" rows={5} className="w-full rounded-xl border bg-transparent px-3 py-2" placeholder="Write your message here..." />
       </div>
       <button className="rounded-xl bg-black text-white dark:bg-white dark:text-black px-5 py-3 font-medium">Send</button>
-      <p className="text-xs opacity-70">Email: <code>denildominic11@gmail.com</code></p>
+      
     </form>
   )
 }

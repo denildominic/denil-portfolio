@@ -113,11 +113,11 @@ export default function HomePage() {
             <ul className="mt-3 space-y-2 mb-6 md:mb-8">
   <li>
     <a
-      href="mailto:denildominic11@gmail.com?subject=Hello%20Denil&body=Hi%20Denil,%0D%0A"
+      href="mailto:contact@denil-dominic.com?subject=Hello%20Denil&body=Hi%20Denil,%0D%0A"
       className="nav break-words"
       aria-label="Email Denil Dominic"
     >
-      denildominic11@gmail.com
+      contact@denil-dominic.com
     </a>
   </li>
 </ul>
