@@ -18,11 +18,11 @@ export const projects: Project[] = [
     imageAlt: 'Budget tracking App'
   },
   {
-    title: 'Agentic Assistant Demo',
-    description: 'An experiment with LLM tools and workflows for research and content generation.',
-    tags: ['LLM', 'Agents', 'OpenAI'],
+    title: 'Professional Portfolio Website',
+    description: 'A modern portfolio site built with Next.js, TypeScript, Tailwind CSS, and MDX, showcasing projects through an optimized React application.',
+    tags: ['React', 'Typescript', 'Next.js', 'TailwindCSS', 'MDX', 'Vercel'],
     href: '#',
-    image: '/projects/portfolio.jpg',
+    image: '/projects/cover.jpg',
     imageAlt: 'Portfolio website on a laptop'
   },
   
