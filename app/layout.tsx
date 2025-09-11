@@ -6,10 +6,10 @@ import { Footer } from '@/components/footer'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://example.com'),
-  title: 'Portfolio — Denil Dominic',
+  title: 'Denil Dominic',
   description: 'A modern, fast portfolio built with Next.js, Tailwind, and MDX.',
   openGraph: {
-    title: 'Portfolio — Denil Dominic',
+    title: 'Denil Dominic',
     description: 'A modern, fast portfolio built with Next.js, Tailwind, and MDX.',
     type: 'website'
   }

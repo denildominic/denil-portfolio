@@ -77,6 +77,9 @@ export default function HomePage() {
       <Section id="skills" title="My Skills" subtitle="Turning knowledge into impact"
       containerClassName="px-3 sm:px-4 lg:px-6" 
       >
+        <p className="mt-2 text-lg opacity-80 mx-left">
+            Here are some of my skills where I have turned knowledge into expertise, making things happen.
+          </p>
         <div className="grid gap-4 md:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {skills.map((s) => (
             <SkillCard key={s.title} {...s} />
