@@ -17,11 +17,11 @@ export function ContactForm() {
     <form className="space-y-4" onSubmit={onSubmit}>
       <div>
         <label className="block text-sm font-medium mb-1">Name</label>
-        <input name="name" required className="w-full rounded-xl border bg-transparent px-3 py-2" placeholder="Jane Doe" />
+        <input name="name" required className="w-full rounded-xl border bg-transparent px-3 py-2" placeholder="Name" />
       </div>
       <div>
         <label className="block text-sm font-medium mb-1">Email</label>
-        <input name="email" type="email" required className="w-full rounded-xl border bg-transparent px-3 py-2" placeholder="jane@example.com" />
+        <input name="email" type="email" required className="w-full rounded-xl border bg-transparent px-3 py-2" placeholder="email@example.com" />
       </div>
       <div>
         <label className="block text-sm font-medium mb-1">Message</label>
