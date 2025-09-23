@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     title: 'ChiCommute App',
     description: 'A modern portfolio built with Next.js, TypeScript, Tailwind, and MDX — optimized for Vercel.',
-    tags: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Vercel', 'Firebase'],
+    tags: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Vercel', 'Firebase', 'Firestore Database'],
     href: 'https://www.chicommute.com',
     image: '/projects/chicommute.png',
     imageAlt: 'Senior Capstone Project - ChiCommute App'
