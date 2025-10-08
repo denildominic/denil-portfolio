@@ -13,7 +13,7 @@ export const projects: Project[] = [
     title: 'ByteBudget',
     description: 'Prototype data platform using serverless functions and analytics with a simple UI.',
     tags: ['Serverless', 'ETL', 'Analytics'],
-    href: '#',
+    href: 'https://bytebudget.vercel.app/',
     image: '/projects/bytebudget.png',
     imageAlt: 'Budget tracking App'
   },
