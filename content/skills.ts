@@ -19,7 +19,7 @@ export const skills: Skill[] = [
   {
     title: 'FullStack Development',
     description: 'Building end-to-end applications with seamless integration between frontend and backend.',
-    bullets: ['React', 'C', 'Cost awareness']
+    bullets: ['React', 'Tailwind CSS', 'TypeScript', 'Cost awareness']
   }
 
 ]
