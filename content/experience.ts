@@ -3,7 +3,7 @@ import type { Experience } from '@/components/experience-item'
 export const experiences: Experience[] = [
   {
     company: 'Amazon',
-    role: 'FC ASSOCIATE',
+    role: 'FULFILLMENT CENTER ASSOCIATE',
     period: '2021 — Present',
     bullets: [
       'Adapted to multiple technical roles including stowing, picking, packing, and problem-solving stations, applying cross-trained skills to support operational needs.',
