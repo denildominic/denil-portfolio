@@ -6,9 +6,9 @@ export const experiences: Experience[] = [
     role: 'FULFILLMENT CENTER ASSOCIATE',
     period: '2021 — Present',
     bullets: [
-      'Adapted to multiple technical roles including stowing, picking, packing, and problem-solving stations, applying cross-trained skills to support operational needs.',
-      'Operated handheld scanners and warehouse management systems to track inventory, process orders, and resolve exceptions in real time. ',
-      'Collaborated with shift leads and associates to troubleshoot system errors, workflow bottlenecks, and scanning discrepancies.'
+      'Adapted to multiple technical roles including packing, stowing, picking and problem-solving, applying cross-trained skills to enhance operational efficiency in a high-volume fulfillment center.',
+      'Operated RF scanners and warehouse management software to track inventory, process orders, and ensure accurate fulfillment, and resolve exceptions in real time. ',
+      'Collaborated with team members and supervisors to meet daily productivity targets, consistently exceeding performance metrics through effective time management and teamwork.'
     ]
   },
   {
