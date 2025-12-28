@@ -16,7 +16,7 @@ export const experiences: Experience[] = [
     role: 'TECH DEPARTMENT ASSOCIATE',
     period: '2020 — 2021',
     bullets: [
-      'Assisted customers with the selection, setup, and troubleshooting of consumer electronics including computers, mobile devices, and home entertainment systems.',
+      'Assisted customers with technical issues related to electronics, providing troubleshooting support and product recommendations to enhance customer satisfaction.',
       'Collaborated with team members to manage device inventory, track stock using digital systems, and ensure product availability.',
       'Configured, updated, and tested electronic systems prior to customer use, ensuring reliability and security.'
     ]
