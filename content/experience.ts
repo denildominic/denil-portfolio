@@ -18,7 +18,7 @@ export const experiences: Experience[] = [
     bullets: [
       'Assisted customers with technical issues related to electronics, providing troubleshooting support and product recommendations to enhance customer satisfaction.',
       'Collaborated with team members to manage device inventory, restock shelves, and track stock using inventory management systems.',
-      'Configured, updated, and tested electronic systems prior to customer use, ensuring reliability and security.'
+      'Configured, updated, and tested electronic systems prior to customer use, which led to improved customer experience.'
     ]
   },
   {
