@@ -17,7 +17,7 @@ export const experiences: Experience[] = [
     period: '2020 — 2021',
     bullets: [
       'Assisted customers with technical issues related to electronics, providing troubleshooting support and product recommendations to enhance customer satisfaction.',
-      'Collaborated with team members to manage device inventory, track stock using digital systems, and ensure product availability.',
+      'Collaborated with team members to manage device inventory, restock shelves, and track stock using inventory management systems.',
       'Configured, updated, and tested electronic systems prior to customer use, ensuring reliability and security.'
     ]
   },
