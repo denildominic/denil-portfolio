@@ -35,7 +35,7 @@ export default function HomePage() {
 
           <h1 className="mt-8 text-5xl md:text-7xl font-extrabold">
   An 
-  <span className="mx-3 inline-block rounded-xl bg-pink-500/15 px-3 py-2 dark:bg-pink-400/20">Aspiring Software Engineer.</span>
+  <span className="mx-3 inline-block rounded-xl bg-pink-500/15 px-3 py-2 dark:bg-pink-400/20">Aspiring Software Developer.</span>
   
 </h1>
           <p className="mt-6 text-lg opacity-80 max-w-2xl mx-auto">
