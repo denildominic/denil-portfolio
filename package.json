@@ -6,8 +6,8 @@
     "dev": "next dev ",
     "build": "next build",
     "start": "next start ",
-    "lint": "next lint",
-    "postinstall": "tailwindcss -v >/dev/null 2>&1 || true"
+    "lint": "next lint"
+    
   },
   "dependencies": {
     "@next/mdx": "15.5.2",
