@@ -21,12 +21,12 @@ export default function HomePage() {
 
           {/* Profile image */}
     <div className="mt-10 flex justify-center">
-  <figure className="relative w-full max-w-4xl aspect-video overflow-hidden rounded-2xl border border-black/10 dark:border-white/10 shadow-2xl">
+  <figure className="relative w-full max-w-sm md:max-w-md aspect-[3/2] overflow-hidden rounded-2xl border border-black/10 dark:border-white/10">
     <Image
       src="/me.jpg"
       alt="Denil Dominic"
       fill
-      sizes="(max-width: 768px) 100vw, 1024px"
+      sizes="(max-width: 768px) 80vw, 1024px"
       className="object-cover object-center"
       priority
     />
