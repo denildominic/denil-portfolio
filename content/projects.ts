@@ -22,7 +22,7 @@ export const projects: Project[] = [
     description: 'Prototype data platform using serverless functions and analytics with a simple UI.',
     tags: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS'],
     href: 'https://jobledger.vercel.app/',
-    image: '/projects/bytebudget.png',
+    image: '/projects/jobledger.png',
     imageAlt: 'Job Searching App'
   },
   {
