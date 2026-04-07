@@ -18,6 +18,14 @@ export const projects: Project[] = [
     imageAlt: 'Work Desk Reservation System'
   },
   {
+    title: 'JobLedger',
+    description: 'Prototype data platform using serverless functions and analytics with a simple UI.',
+    tags: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS'],
+    href: 'https://jobledger.vercel.app/',
+    image: '/projects/bytebudget.png',
+    imageAlt: 'Job Searching App'
+  },
+  {
     title: 'ByteBudget',
     description: 'Prototype data platform using serverless functions and analytics with a simple UI.',
     tags: ['Serverless', 'ETL', 'Analytics'],
