@@ -10,6 +10,14 @@ export const projects: Project[] = [
     imageAlt: 'Senior Capstone Project - ChiCommute App'
   },
   {
+    title: 'Work-Desk Reservation',
+    description: 'A microservices based work desk reservation system built with Spring Boot, Kafka, Keycloak, and PostgreSQL for secure desk booking and event driven communication. ',
+    tags: ['Java', 'Microservices', 'Kafka', 'Docker'],
+    href: 'https://github.com/denildominic/Work-Desk-Reservation.git',
+    image: '/projects/deskreserve.png',
+    imageAlt: 'Work Desk Reservation System'
+  },
+  {
     title: 'ByteBudget',
     description: 'Prototype data platform using serverless functions and analytics with a simple UI.',
     tags: ['Serverless', 'ETL', 'Analytics'],
