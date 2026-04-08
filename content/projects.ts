@@ -31,7 +31,7 @@ export const projects: Project[] = [
     tags: ['Serverless', 'ETL', 'Analytics'],
     href: 'https://bytebudget.vercel.app/',
     image: '/projects/bytebudget.png',
-    imageAlt: 'Budget tracking App'
+    imageAlt: 'Budget tracking Website'
   },
   {
     title: 'Professional Portfolio Website',
